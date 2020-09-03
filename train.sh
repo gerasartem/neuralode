@@ -1,0 +1,1 @@
+python run.py --model='functions_latent_ode' --batch_size=1024 --n_epoch=1000 --train_dataset_size=8192 --val_dataset_size=1024 --time_size=30 --version=1 --learning_rate=0.003 --device='cuda' --save --const_samples --log_dir='./logs1'
